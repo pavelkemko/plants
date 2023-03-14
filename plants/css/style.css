@@ -1,0 +1,1972 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Inika';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #636060;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1222px;
+}
+.header {
+  background-color:#EDF2EC;
+}
+.header_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px 0px 40px 0px;
+}
+.header_burger {
+  display: none;
+}
+.header_logo {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+.logo_plants_text {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+.logo_plants {
+  margin-bottom: 8px;
+}
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header_item {
+  margin-right: 47px;
+}
+.header_item:last-child {
+  margin-right: 0;
+}
+.header_link {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+  text-decoration: none;
+}
+.header_link_first {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color: #E06733;
+  text-decoration: none;
+}
+.header_link:hover {
+  opacity: .75;
+  color: #E06733;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.welcome_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 37px 0px 87.64px 0px;
+}
+.welcome {
+  background-color:#EDF2EC;
+}
+.welcome_leafs {
+  width: 448.8px;
+  height: 407.36px;
+}
+.leafs_welcome_img {
+  width: 103%;
+  height: 103%;
+  object-fit: cover;
+  object-position: -10px 12px;
+}
+.welcome_description {
+  display: flex;
+  flex-direction:column;
+  justify-content:start;
+  margin: 61px 0px 6.36px 0px;
+  max-width: 549px;
+  min-height: 340px;
+}
+.welcome_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  padding-top: 43px;
+  padding-right: 23.56px;
+  padding-bottom: 49px;
+}
+.welcome_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+.green_text {
+  color:#499A18;
+}
+.learn_more_button {
+  width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #000000;
+  background-color:#EDF2EC;
+}
+.learn_more_button:hover {
+  background-color: #E06733;
+  color: white;
+  opacity: .75;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.about_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 93px 0px 93px 0px;
+}
+.about {
+  background: #FFFFFF;
+}
+.houseplant_about_container {
+  width: 464px;
+  height: 479px;
+}
+.about_description {
+  display: flex;
+  flex-direction:column;
+  justify-content:start;
+  margin: 68px 0px 64px 0px;
+  max-width: 605px;
+  height: 350px;
+}
+.about_header {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  padding-right: 142px;
+  padding-bottom: 38px;
+}
+.orange-text {
+  color: #E06733;
+}
+.about_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+.service {
+  background-color:#EDF2EC;
+}
+.service_wrapper {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+.service_description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 38px 217px 80px 0px;
+}
+.service_header {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  max-width: 306px;
+  min-height: 94px;
+}
+.service_buttons_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 559px;
+  min-height: 50px;
+}
+.service_button {
+  width: 161px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+  background-color:#EDF2EC;
+  margin-right: 38px;
+}
+.service_button:last-child {
+  margin-right: 0px;
+}
+.service_button:hover {
+  cursor: pointer;
+}
+.service_wrapper.active_gardens .planting_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_gardens .lawn_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_gardens .gardens_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting .gardens_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting .lawn_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting .planting_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn .gardens_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn .planting_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn .lawn_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn.active_planting .gardens_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn.active_planting .lawn_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn.active_planting .planting_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn.active_gardens .gardens_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn.active_gardens .lawn_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn.active_gardens .planting_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting.active_gardens .planting_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting.active_gardens .gardens_item {
+  filter: blur(0px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting.active_gardens .lawn_item {
+  filter: blur(2px);
+  transition: 0.7s;
+}
+.service_wrapper.active_planting .planting_button {
+  background-color: #E06733;
+  color: white;
+  opacity: .75;
+  transition: 0.7s;
+}
+.service_wrapper.active_lawn .lawn_button {
+  background-color: #E06733;
+  color: white;
+  opacity: .75;
+  transition: 0.7s;
+}
+.service_wrapper.active_gardens .gardens_button {
+  background-color: #E06733;
+  color: white;
+  opacity: .75;
+  transition: 0.7s;
+}
+.service_items_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100%;
+  min-height: 955px;
+  margin-bottom: 119px;
+}
+.service_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service_item_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+}
+.service_item_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #E06733;
+  margin: 8px 0px 15px 0px;
+}
+.service_item_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+  margin: 0px 31.9px 36px 30.9px;
+}
+.service_items_img {
+  display: block;
+}
+.prices {
+  background-color: white;
+}
+.prices_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0px 119px 0px;
+}
+.prices_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+.prices_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 452px;
+}
+.prices_right_description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 35px;
+}
+.prices_right_header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.leafs_prices_container {
+  width: 152px;
+  height: 174.99px;
+  overflow: hidden;
+}
+.leafs_prices {
+  width: 107%;
+  height: 107%;
+  object-fit: cover;
+  object-position: -5px -1px;
+}
+.contacts_button {
+  width: 162px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #E06733;
+  background-color: white;
+}
+.contacts_button:hover {
+  background-color: #E06733;
+  color: white;
+  opacity: .75;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.prices_buttons_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 41px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  min-width: 332px;
+  width: 100%;
+}
+.prices_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content:flex-start;
+  max-width: 250px;
+  width: 100%;
+  min-height: 50px;
+  height: 100%;
+  background: #EDF2EC;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+.basics_button_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 40px 0px 40px;
+}
+.basics_button_line {
+  display: none;
+  max-width: 164px;
+  width: 100%;
+  height: 1px;
+  background-color: #AEA1A1;
+  width: 100%;
+  margin: 8px 0px 6px 40px; 
+}
+.basics_button_description {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 10px;
+  color: #717171;
+  padding: 0px 41px 6px 40px;
+}
+.basics_price {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0px 0px 8px 40px;
+}
+.orange_text {
+  color: #E06733;
+  font-weight: 700;
+  font-size: 16px;
+}
+.small_dollar {
+  color: #E06733;
+}
+.basics_order_button {
+  display: none;
+  width: 86px;
+  height: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0px;
+  margin: 0px 0px 12px 39px;
+  text-align: center;
+  text-justify: center;
+}
+.basics_order_link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
+  text-justify: center;
+  list-style-type:none;
+  text-decoration: none;
+  padding: 3px 26px 3px 14px;
+}
+.basics_order_button:hover {
+  cursor: pointer;
+}
+.basics_accordion_btn_rotate {
+  display: none;
+}
+.accordion_btn:hover {
+  cursor: pointer;
+}
+.prices_button:last-child {
+  margin-bottom: 0px;
+}
+.prices_button_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+.prices_buttons_container.active_basics .basics_button {
+  background: #D6E7D2;
+}
+.prices_buttons_container.active_basics .basics_button_line {
+  display: initial;
+}
+.prices_buttons_container.active_basics .basics_button_description {
+  display: initial;
+}
+.prices_buttons_container.active_basics .basics_price {
+  display: initial;
+}
+.prices_buttons_container.active_basics .basics_order_button {
+  display: initial;
+}
+.prices_buttons_container.active_basics .basics_accordion_btn_rotate {
+  display: initial;
+}
+.prices_buttons_container.active_basics .basics_accordion_btn_simple {
+  display: none;
+}
+.standard_button_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 40px 0px 40px;
+}
+.standard_button_line {
+  display: none;
+  max-width: 164px;
+  width: 100%;
+  height: 1px;
+  background-color: #AEA1A1;
+  width: 100%;
+  margin: 8px 0px 6px 40px; 
+}
+.standard_button_description {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 10px;
+  color: #717171;
+  padding: 0px 41px 6px 40px;
+}
+.standard_price {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0px 0px 8px 40px;
+}
+.standard_order_button {
+  display: none;
+  width: 86px;
+  height: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0px;
+  margin: 0px 0px 12px 39px;
+  text-align: center;
+  text-justify: center;
+}
+.standard_order_link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
+  text-justify: center;
+  list-style-type:none;
+  text-decoration: none;
+  padding: 3px 26px 3px 14px;
+}
+.standard_order_button:hover {
+  cursor: pointer;
+}
+.standard_accordion_btn_rotate {
+  display: none;
+}
+.prices_buttons_container.active_standard .standard_button {
+  background: #D6E7D2;
+}
+.prices_buttons_container.active_standard .standard_button_line {
+  display: initial;
+}
+.prices_buttons_container.active_standard .standard_button_description {
+  display: initial;
+}
+.prices_buttons_container.active_standard .standard_price {
+  display: initial;
+}
+.prices_buttons_container.active_standard .standard_order_button {
+  display: initial;
+}
+.prices_buttons_container.active_standard .standard_accordion_btn_rotate {
+  display: initial;
+}
+.prices_buttons_container.active_standard .standard_accordion_btn_simple {
+  display: none;
+}
+.procare_button_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 40px 0px 40px;
+}
+.procare_button_line {
+  display: none;
+  max-width: 164px;
+  width: 100%;
+  height: 1px;
+  background-color: #AEA1A1;
+  width: 100%;
+  margin: 8px 0px 6px 40px; 
+}
+.procare_button_description {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 10px;
+  color: #717171;
+  padding: 0px 41px 6px 40px;
+}
+.procare_price {
+  display: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0px 0px 8px 40px;
+}
+.procare_order_button {
+  display: none;
+  width: 86px;
+  height: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0px;
+  margin: 0px 0px 12px 39px;
+  text-align: center;
+  text-justify: center;
+}
+.procare_order_link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
+  text-justify: center;
+  list-style-type:none;
+  text-decoration: none;
+  padding: 3px 26px 3px 14px;
+}
+.procare_order_button:hover {
+  cursor: pointer;
+}
+.procare_accordion_btn_rotate {
+  display: none;
+}
+.prices_buttons_container.active_procare .procare_button {
+  background: #D6E7D2;
+}
+.prices_buttons_container.active_procare .procare_button_line {
+  display: initial;
+}
+.prices_buttons_container.active_procare .procare_button_description {
+  display: initial;
+}
+.prices_buttons_container.active_procare .procare_price {
+  display: initial;
+}
+.prices_buttons_container.active_procare .procare_order_button {
+  display: initial;
+}
+.prices_buttons_container.active_procare .procare_accordion_btn_rotate {
+  display: initial;
+}
+.prices_buttons_container.active_procare .procare_accordion_btn_simple {
+  display: none;
+}
+.contacts_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contacts {
+  background-color:#EDF2EC;;
+}
+.contacts_h {
+  padding-left: 43px;
+}
+.contacts_woman_container {
+  margin: 53px 0px 0px 0px;
+}
+.contacts_woman_img {
+  display: block;
+}
+.contacts_header {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  margin: 60px 0px 439px 0px;
+}
+.contacts_accordion_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 450px;
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  margin: 148px 0px 0px 0px;
+  padding-right: 36px;
+}
+.contacts_accordion_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  margin-left: 20px;
+}
+.canandaigua_header {
+  display: none; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  margin-left: 20px;
+}
+.newyork_header {
+  display: none; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  margin-left: 20px;
+}
+.yonkers_header {
+  display: none; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  margin-left: 20px;
+}
+.sherrill_header {
+  display: none; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  margin-left: 20px;
+}
+.text_newyork {
+  display: none;
+}
+.text_yonkers {
+  display: none;
+}
+.text_sherrill {
+  display: none;
+}
+.phone_newyork {
+  display: none;
+}
+.phone_yonkers {
+  display: none;
+}
+.phone_sherrill {
+  display: none;
+}
+.adress_newyork {
+  display: none;
+}
+.adress_yonkers {
+  display: none;
+}
+.adress_sherrill {
+  display: none;
+}
+.call_number {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  color: #717171;
+  padding: 5px 38px 3px 38px;
+}
+.call_number:hover {
+  color: white;
+  transition: 0.5s;
+}
+.call_newyork {
+  display: none;
+}
+.call_yonkers {
+  display: none;
+}
+.call_sherrill {
+  display: none;
+}
+.contacts_accordion_items {
+  display: none;
+  flex-direction: column;
+  padding: 0px 50px 31px 20px;
+  background: #DCE9D9;
+}
+.text_accordion_items {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #499A18;
+  padding-left: 6px;
+  width: 100%;
+}
+.contacts_accordion_canandaigua {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  height: 62px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.contacts_accordion_newyork {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  height: 47px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.contacts_accordion_yonkers {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  height: 47px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.contacts_accordion_sherrill {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  height: 47px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.contacts_accordion_header:hover {
+  cursor: pointer;
+}
+.contacts_wrapper.active_city .contacts_accordion_items {
+  display: flex;
+}
+.contacts_wrapper.active_city .accordion_btn_city {
+  transform: rotate(-180deg);
+}
+.contacts_wrapper.active_city .contacts_accordion_header {
+  background: #C1E698;
+  border: 1px solid #D6E7D2;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px 0px;
+}
+.contacts_wrapper.active_city .contacts_accordion_canandaigua:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #717171;
+}
+.contacts_wrapper.active_city .contacts_accordion_newyork:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #717171;
+}
+.contacts_wrapper.active_city .contacts_accordion_yonkers:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #717171;
+}
+.contacts_wrapper.active_city .contacts_accordion_sherrill:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #717171;
+}
+.contacts_wrapper.active_city .text_accordion_items:hover {
+  color: #717171;
+}
+.contacts_accordion_container {
+  display: flex;
+  flex-direction: column;
+}
+.city_card_container {
+  display:none;
+  background: #EDF2EC;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  margin-top: 47px;
+}
+.city_card {
+  padding: 17px 76px 32px 33px;
+  display: flex;
+  flex-direction: row;
+}
+.city_card_header_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.city_card_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+}
+.city_card_description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.call_us_btn {
+  width: 122px;
+  height: 26px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background: #EDF2EC;
+  margin-top: 20px;
+}
+.call_us_btn:hover {
+  cursor: pointer;
+  background: #E06733;
+}
+.contacts_wrapper.active_canandaigua .city_card_container {
+  display:initial;
+}
+.contacts_wrapper.active_canandaigua .contacts_accordion_items {
+  display: none;
+}
+.contacts_wrapper.active_canandaigua .accordion_btn_city {
+  transform: rotate(0deg);
+}
+.contacts_wrapper.active_canandaigua .contacts_accordion_text {
+  display: none;
+}
+.contacts_wrapper.active_canandaigua .canandaigua_header {
+  display: initial;
+}
+.contacts_wrapper.active_newyork .city_card_container {
+  display:initial;
+}
+.contacts_wrapper.active_newyork .contacts_accordion_items {
+  display: none;
+}
+.contacts_wrapper.active_newyork .accordion_btn_city {
+  transform: rotate(0deg);
+}
+.contacts_wrapper.active_newyork .contacts_accordion_text {
+  display: none;
+}
+.contacts_wrapper.active_newyork .newyork_header {
+  display: initial;
+}
+.contacts_wrapper.active_newyork .text_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_newyork .text_newyork {
+  display: initial;
+}
+.contacts_wrapper.active_newyork .phone_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_newyork .phone_newyork {
+  display: initial;
+}
+.contacts_wrapper.active_newyork .adress_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_newyork .adress_newyork {
+  display: initial;
+}
+.contacts_wrapper.active_newyork .call_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_newyork .call_newyork {
+  display: initial;
+}
+.contacts_wrapper.active_yonkers .city_card_container {
+  display:initial;
+}
+.contacts_wrapper.active_yonkers .contacts_accordion_items {
+  display: none;
+}
+.contacts_wrapper.active_yonkers .accordion_btn_city {
+  transform: rotate(0deg);
+}
+.contacts_wrapper.active_yonkers .contacts_accordion_text {
+  display: none;
+}
+.contacts_wrapper.active_yonkers .yonkers_header {
+  display: initial;
+}
+.contacts_wrapper.active_yonkers .text_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_yonkers .text_yonkers {
+  display: initial;
+}
+.contacts_wrapper.active_yonkers .phone_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_yonkers .phone_yonkers {
+  display: initial;
+}
+.contacts_wrapper.active_yonkers .adress_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_yonkers .adress_yonkers {
+  display: initial;
+}
+.contacts_wrapper.active_yonkers .call_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_yonkers .call_yonkers {
+  display: initial;
+}
+.contacts_wrapper.active_sherrill .city_card_container {
+  display:initial;
+}
+.contacts_wrapper.active_sherrill .contacts_accordion_items {
+  display: none;
+}
+.contacts_wrapper.active_sherrill .accordion_btn_city {
+  transform: rotate(0deg);
+}
+.contacts_wrapper.active_sherrill .contacts_accordion_text {
+  display: none;
+}
+.contacts_wrapper.active_sherrill .sherrill_header {
+  display: initial;
+}
+.contacts_wrapper.active_sherrill .text_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_sherrill .text_sherrill {
+  display: initial;
+}
+.contacts_wrapper.active_sherrill .phone_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_sherrill .phone_sherrill {
+  display: initial;
+}
+.contacts_wrapper.active_sherrill .adress_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_sherrill .adress_sherrill {
+  display: initial;
+}
+.contacts_wrapper.active_sherrill .call_canandaigua {
+  display: none;
+}
+.contacts_wrapper.active_sherrill .call_sherrill {
+  display: initial;
+}
+.footer_container {
+  margin: 0 auto;
+  max-width: 1222px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 39px 0px 40px 0px;
+}
+.social_media_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  align-items: center;
+}
+.social_media_items {
+  margin-right: 29px;
+}
+.social_media_items:last-child {
+  margin-right: 0px;
+}
+.social_media_items:hover {
+  opacity: .75;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer {
+  background: #FFFFFF;
+}
+.footer_rss_link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  text-decoration: none;
+  padding-left: 19px;
+}
+.footer_rss_link:hover {
+  opacity: .75;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.github_link_first_item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  padding-right: 16px;
+}
+.github_link_second_item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  padding-right: 16px;
+}
+.github_link_third_item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  text-decoration: none;
+}
+.github_link_third_item:hover {
+  opacity: .75;
+  cursor: pointer;
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .container {
+    margin: 0 auto;
+    max-width: 668px;
+  }
+  .header_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0px 33px 0px;
+  }
+  .welcome_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0px 70px 0px;
+  }
+  .welcome_description {
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    margin: 0px 0px;
+    max-width: 346px;
+    min-height: 310px;
+    order: 1;
+  }
+  .welcome_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #636060;
+    padding: 30px 0px 34px 5px;
+  }
+  .welcome_header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    color: #717171;
+  }
+  .welcome_leafs {
+    width: 280px;
+    height: 254.15px;
+    order: 2;
+    overflow: hidden;
+  }
+  .leafs_welcome_img {
+    width: 103%;
+    height: 103%;
+    object-fit: cover;
+    object-position: -5px -7px;
+  }
+  .about_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    max-width: 668px;
+  }
+  .houseplant_about_container {
+    width: 250px;
+    height: 258px;
+    margin: 70px 0px 95px 0px;
+  }
+  .houseplant_about {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+  .about_description {
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    max-width: 668px;
+    height: auto;
+  }
+  .about_header {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    text-justify: center;
+    color: #499A18;
+    padding: 40px 0px 48px 0px;
+    max-width: 423px;
+  }
+  .about_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+  }
+  .service_wrapper {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  .service_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 559px;
+    margin: 60px 0px 40px 0px;
+  }
+  .service_header {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #499A18;
+    max-width: 306px;
+    min-height: 94px;
+  }
+  .service_buttons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 50px;
+    margin-top: 40px;
+  }
+  .service_items_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    max-width: 668px;
+    min-height: 1426px;
+    margin-bottom: 70px;
+  }
+  .service_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 281px;
+    height: 450px;
+  }
+  .service_item_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .service_item_header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    margin: 9px 0px 10px 0px;
+  }
+  .service_item_header.to_fix {
+    margin: 9px 0px 11px 0px;
+  }
+  .service_item_header.to_fix_2 {
+    margin: 9px 0px 9px 0px;
+  }
+  .service_item_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #717171;
+    margin: 0px 38px 18px 39px;
+  }
+  .service_items_img {
+    display: block;
+  }
+  .prices_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0px 88.02px 0px;
+  }
+  .prices_header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 55px;
+    padding-left: 15px;
+  }
+  .prices_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 452px;
+    margin-top: 99px;
+  }
+  .prices_right_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 35px;
+  }
+  .prices_right_header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 28px;
+  }
+  .leafs_prices_container {
+    width: 152px;
+    height: 174.99px;
+    overflow: hidden;
+  }
+  .leafs_prices {
+    width: 107%;
+    height: 107%;
+    object-fit: cover;
+    object-position: -5px -1px;
+  }
+  .contacts_button {
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    background-color: white;
+  }
+  .contacts_button:hover {
+    background-color: #E06733;
+    color: white;
+    opacity: .75;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .prices_buttons_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 41px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+  }
+  .contacts_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .contacts_h {
+    padding-left: 0px;
+  }
+  .contacts_woman_container {
+    order: 3;
+    margin: 0px 0px 0px 20px;
+    width: 200px;
+    height: 248.49px;
+  }
+  .contacts_woman_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+  .contacts_header {
+    text-align: center;
+    margin: 39px 0px 0px 0px;
+  }
+  .contacts_accordion_header {
+    display: flex;
+    padding-right: 36px;
+    margin: 0px 0px 0px 0px;
+    max-width: 450px;
+    width: 100%;
+  }
+  .contacts_accordion_container {
+    max-width: 450px;
+    width: 100%;
+    margin: 100px 0px 250px 0px;
+    order: 2;
+  }
+  .contacts_wrapper.active_canandaigua .contacts_accordion_container {
+    margin: 61px 0px 14px 0px;
+  }
+  .contacts_wrapper.active_newyork .contacts_accordion_container {
+    margin: 61px 0px 14px 0px;
+  }
+  .contacts_wrapper.active_yonkers .contacts_accordion_container {
+    margin: 61px 0px 14px 0px;
+  }
+  .contacts_wrapper.active_sherrill .contacts_accordion_container {
+    margin: 61px 0px 14px 0px;
+  }
+  .city_card_container {
+    margin-top: 61px;
+  }
+  .footer_container {
+    margin: 0 auto;
+    max-width:210px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 0px 24.9px 0px;
+  }
+  .footer_rss_link {
+    line-height: 24px;
+    padding-left: 0px;
+  }
+  .footer_rss_link_container {
+    margin-bottom: 28px;
+  }
+  .github_link_first_item {
+    line-height: 24px;
+    padding-right: 17px;
+  }
+  .github_link_second_item {
+    line-height: 24px;
+    padding-right: 19px;
+  }
+  .github_link_third_item {
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .footer_github_link {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 600px){
+  .prices_wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    max-width: 330px;
+  }
+  .header_container {
+    padding: 34px 0px 34px 0px;
+  }
+  .logo_plants {
+    margin: 0;
+    z-index: 2;
+  }
+  .logo_plants_text {
+    display: block;
+    padding-top: 7px;
+    z-index: 2;
+  }
+  .header_burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 26px;
+    z-index: 2;
+  }
+  .burger_span {
+    width: 100%;
+    height: 2px;
+    background-color: #717171;
+    transition: 0.5s;
+    opacity: .75;
+  }
+  .header_burger:hover {
+    opacity: .75;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .header_nav {
+    position: absolute;
+    right: 0;
+    top: -100%;
+    background-color: #EDF2EC;
+    width: 100%;
+    padding-top: 80px;
+    transition: 0.8s;
+  }
+  .header_list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100px;
+    margin: 0 auto;
+  }
+  .header_item {
+    margin-right: 0px;
+    text-align: center;
+  }
+  .header.adaptive .header_nav {
+    top: 0;
+  }
+  .header.adaptive .burger_span:nth-child(2) {
+    opacity: 0;
+  }
+  .header.adaptive .burger_span:nth-child(3) {
+    opacity: 0;
+  }
+  .header.adaptive .burger_span:nth-child(1) {
+    transform: translateY(11.5px) rotate(45deg);
+  }
+  .header.adaptive .burger_span:nth-child(4) {
+    transform: translateY(-11.5px) rotate(-45deg);
+  }
+  .welcome_leafs {
+    display: none;
+  }
+  .welcome_header {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .welcome_description {
+    min-height: 0px;
+  }
+  .welcome_wrapper {
+    padding: 26px 0px 24px 0px;
+  }
+  .welcome_text {
+    display: block;
+    padding: 20.36px 0px 25px 0px;
+  }
+  .learn_more_button {
+    width: 100px;
+    height: 34.14px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .about_header {
+    font-size: 25px;
+    line-height: 33px;
+    color: #499A18;
+    padding: 31px 0px 14px 0px;
+    max-width: 288px;
+  }
+  .about_text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .houseplant_about_container {
+    width: 150px;
+    height: 147px;
+    margin: 0px 0px 33px 0px;
+  }
+  .houseplant_about {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+  .service_description {
+    max-width: 252px;
+    margin: 30px 0px 40px 0px;
+  }
+  .service_header {
+    font-size: 25px;
+    line-height: 33px;
+    max-width: 187px;
+    min-height: 69px;
+  }
+  .service_buttons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 25px;
+    margin-top: 35px;
+  }
+  .service_button {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .service_button:last-child {
+    margin-bottom: 0px;
+  }
+  .service_items_container {
+    flex-direction: column;
+    align-content: center;
+    max-width: 330px;
+    min-height: 2870px;
+    margin-bottom: 27px;
+  }
+  .service_item_header.to_fix {
+    margin: 9px 0px 12px 0px;
+  }
+  .service_item_header.to_fix_2 {
+    margin: 9px 0px 9px 0px;
+  }
+  .prices_wrapper {
+    flex-direction: column;
+    align-content: center;
+    padding: 25px 0px 40px 0px;
+  }
+  .prices_header {
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 38px;
+    padding-left: 0px;
+  }
+  .prices_buttons_container {
+    padding: 27px 22px;
+    min-width: 224px;
+    width: 100%;
+    min-height: 235px;
+  }
+  .prices_button {
+    max-width: 180px;
+    width: 100%;
+    min-height: 49.72px;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 13.92px;
+  }
+  .basics_button_header {
+    padding: 15.91px 40px 0px 30px;
+  }
+  .standard_button_header {
+    padding: 15.91px 40px 0px 30px;
+  }
+  .procare_button_header {
+    padding: 15.91px 40px 0px 30px;
+  }
+  .basics_button_line {
+    max-width: 105px;
+    margin: 8px 0px 6px 30px; 
+  }
+  .standard_button_line {
+    max-width: 105px;
+    margin: 8px 0px 6px 30px; 
+  }
+  .procare_button_line {
+    max-width: 105px;
+    margin: 8px 0px 6px 30px; 
+  }
+  .basics_button_description {
+    padding: 0px 41px 6px 30px;
+  }
+  .standard_button_description {
+    padding: 0px 41px 6px 30px;
+  }
+  .procare_button_description {
+    padding: 0px 41px 6px 30px;
+  }
+  .basics_price {
+    padding: 0px 0px 8px 30px;
+  }
+  .standard_price {
+    padding: 0px 0px 8px 30px;
+  }
+  .procare_price {
+    padding: 0px 0px 8px 30px;
+  }
+  .basics_order_button {
+    margin: 0px 0px 12px 29px;
+  }
+  .standard_order_button {
+    margin: 0px 0px 12px 29px;
+  }
+  .procare_order_button {
+    margin: 0px 0px 12px 29px;
+  }
+  .prices_button_text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .prices_left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .prices_right {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    max-width: 452px;
+    margin-top: 19px;
+  }
+  .leafs_prices_container {
+    display: none;
+  }
+  .prices_right_description {
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .prices_right_header {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 230px;
+  }
+  .contacts_button {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .contacts_header {
+    font-size: 25px;
+    line-height: 33px;
+    margin: 25px 0px 0px 0px;
+  }
+  .contacts_accordion_header {
+    padding-right: 21px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .contacts_accordion_container {
+    margin: 80px 0px 132px 0px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .contacts_wrapper {
+    padding-right: 2px;
+  }
+  .contacts_wrapper.active_canandaigua .contacts_accordion_container {
+    margin: 42px 0px 33px 0px;
+  }
+  .contacts_wrapper.active_newyork .contacts_accordion_container {
+    margin: 42px 0px 33px 0px;
+  }
+  .contacts_wrapper.active_yonkers .contacts_accordion_container {
+    margin: 42px 0px 33px 0px;
+  }
+  .contacts_wrapper.active_sherrill .contacts_accordion_container {
+    margin: 42px 0px 33px 0px;
+  }
+  .contacts_wrapper.active_canandaigua .city_card_container {
+    max-width: 282px;
+    margin: 49px auto 0px auto;
+  }
+  .contacts_wrapper.active_canandaigua .office_adress {
+    line-height: 20px;
+  }
+  .contacts_wrapper.active_canandaigua .city_card_header {
+    max-width: 65px;
+  }
+  .contacts_wrapper.active_canandaigua .adress_canandaigua {
+    line-height: 20px;
+    padding-left: 5px;
+  }
+  .contacts_wrapper.active_canandaigua .contacts_woman_container {
+    display: none;
+  }
+  .contacts_wrapper.active_newyork .office_adress {
+    line-height: 20px;
+  }
+  .contacts_wrapper.active_newyork .city_card_header {
+    max-width: 65px;
+  }
+  .contacts_wrapper.active_newyork .contacts_woman_container {
+    display: none;
+  }
+  .contacts_wrapper.active_yonkers .office_adress {
+    line-height: 20px;
+  }
+  .contacts_wrapper.active_yonkers .city_card_header {
+    max-width: 65px;
+  }
+  .contacts_wrapper.active_yonkers .contacts_woman_container {
+    display: none;
+  }
+  .contacts_wrapper.active_sherrill .office_adress {
+    line-height: 20px;
+  }
+  .contacts_wrapper.active_sherrill .city_card_header {
+    max-width: 65px;
+  }
+  .contacts_wrapper.active_sherrill .adress_sherrill {
+    line-height: 20px
+  }
+  .contacts_wrapper.active_sherrill .contacts_woman_container {
+    display: none;
+  }
+  .contacts_woman_container {
+    margin: 0px 0px 0px 0px;
+    width: 100px;
+    height: 124.25px;
+  }
+  .contacts_woman_img {
+    display: block;
+  }
+  .city_card {
+    padding: 23px 15px 23px 38px;
+    display: flex;
+    flex-direction: row;
+  }
+  .city_card_description {
+    margin-left: 0px;
+  }
+  .footer_container {
+    padding: 22px 0px 15px 0px;
+  }
+  .footer_rss_link_container {
+    margin-bottom: 14px;
+  }
+}
